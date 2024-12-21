@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Registration</h1>
+        <form id="studentForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="class">Class:</label>
+            <input type="text" id="class" required>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" required>
+
+            <label for="birthdate">Birthdate:</label>
+            <input type="date" id="birthdate" required>
+
+            <label for="region">Region:</label>
+            <input type="text" id="region" required>
+
+            <button type="submit">Save</button>
+        </form>
+
+        <p><a href="students.html">View All Student Records</a></p>
+        
+        <div id="formMessage" class="hidden"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
